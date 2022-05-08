@@ -3,8 +3,8 @@ package aptostypes
 import (
 	"fmt"
 
+	"github.com/aptos-labs/serde-reflection/serde-generate/runtime/golang/serde"
 	"github.com/novifinancial/serde-reflection/serde-generate/runtime/golang/bcs"
-	"github.com/novifinancial/serde-reflection/serde-generate/runtime/golang/serde"
 )
 
 type AccessPath struct {

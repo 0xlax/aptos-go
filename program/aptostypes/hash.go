@@ -3,7 +3,7 @@ package aptostypes
 import (
 	"encoding/hex"
 
-	"golang.org/x/crypto/sha3"
+	sha3 "golang.org/x/crypto/sha3"
 )
 
 func HashPrefix(name string) []byte {
